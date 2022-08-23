@@ -11,12 +11,6 @@ export default function Header(){
                     height={'100%'}
                     width={350}
                     alt="EmillyEMax" />
-                <Image
-                    className={styles.logo}
-                    src="/karolegesio.jpg"
-                    height={'100%'}
-                    width={'100%'}
-                    alt="EmillyEMax" />
             </header>
         </div>
     )

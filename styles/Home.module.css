@@ -4,6 +4,25 @@
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
+  padding: 0px 8px;
+}
+
+.mapsChurch{
+  margin: 64px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mapsBuffet{
+  margin: 64px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .list {
