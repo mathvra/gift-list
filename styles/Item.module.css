@@ -1,7 +1,5 @@
 .item {
   display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 2px 2px 5px #0002;
   padding: 15px;
   border-radius: 20px;
@@ -13,8 +11,6 @@
 
 .itemSigned{
   display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 2px 2px 5px #0002;
   padding: 15px;
   border-radius: 20px;
@@ -24,8 +20,6 @@
   background: #f3e2e2;
   color: #fff;
 }
-
-
 
 .inputSign,
 .inputContact {
@@ -43,11 +37,20 @@
 .itemSigned .itemName{
   color: #652235;
 }
+
+.itemInput{
+  width: 100%;
+}
+
 .action {
   display: flex;
-  padding: 10px;
-  width: 250px;
+  margin-bottom: 8px;
+  width: 100%;
 }
+
+/* .action > div {
+  width: 100%;
+} */
 
 .action button {
   height: 100%;
@@ -61,11 +64,16 @@
   border-radius: 0 10px 10px 0;
 }
 
+.actionSigned {
+  width: 100%;
+}
+
 .actionSigned .textSigned h3 {
   color: #652235;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
+  text-align: center;
   background: #fff;
 }
 

@@ -7,7 +7,7 @@ export default function Header(){
             <header>
                 <Image
                     className={styles.logo}
-                    src="/logotipoEmillyEMax.svg"
+                    src="/banner-site.png"
                     height={'100%'}
                     width={350}
                     alt="EmillyEMax" />
