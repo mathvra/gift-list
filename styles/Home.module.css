@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
   min-height: 100vh;
+  max-width: 1080px;
   padding: 0px 16px;
 }
 
@@ -69,4 +71,39 @@
 
 .message p{
   margin: 20px 0;
+}
+
+.textCall{
+  color: #652235;
+  font-weight: 600;
+  text-align: center;
+}
+
+.legendImage{
+  color: #727272;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerBannerMain{
+    max-height: 500px;
+    max-width: 1388px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mapsChurch, .mapsBuffet{
+    margin-top: 64px;
+  }
+
+  .bottomBanner{
+    max-width: 1388px;
+    margin: 0 auto;
+  }
+
+  .iframeChurch, .iframeBuffet {
+    height: 450px !important;
+  }
 }
